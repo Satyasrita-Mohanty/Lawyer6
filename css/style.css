@@ -149,9 +149,17 @@ nav{
     font-size: 15px;
 }
 .sideImg{
-        position: absolute;
+    position: absolute;
     top: 60%;
     left: 50%;
+    max-width: 436px;
+    -webkit-box-shadow: -17px 10px 34px -18px rgba(0,0,0,.5);
+    box-shadow: -17px 10px 34px -18px rgba(0,0,0,.5);
+}
+.sideImg1{
+    position: absolute;
+    top: 60%;
+    right: 50%;
     max-width: 436px;
     -webkit-box-shadow: -17px 10px 34px -18px rgba(0,0,0,.5);
     box-shadow: -17px 10px 34px -18px rgba(0,0,0,.5);
@@ -187,7 +195,7 @@ nav{
     text-transform: capitalize;
     color: #000000;
     letter-spacing: 1px;
-    font-size: 19px;
+    font-size: 17px;
     text-transform: uppercase;
 }
 .backImg{
@@ -199,7 +207,81 @@ nav{
     font-weight: 500;
     font-size: 44px;
 }
+.card{
+    background-color: none;
+    border: none;
+}
+.circleImg{
+    height: 300px;
+    width: 100%;
+    margin-bottom: 19px;
+}
+.sliderbackImg{
+    background-image: url(../images/blog1.jpg);
+    background-repeat: no-repeat;
+    height: 525px;
+    background-size: cover;
+    box-shadow: -17px 10px 34px -18px rgba(0,0,0,.5);
+    margin-bottom: 80px;
+}
+.sliderWhiteBox{
+    background-color:  #f2f2f2;
+    padding: 60px 20px;
+    box-shadow: -17px 10px 34px -18px rgba(0,0,0,.5);
+     margin-bottom: 80px;
+}
+.iconBox1{
+    font-size: 42px;
+    font-weight: bold;
+}
 
+.secondSlider .carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: #f9ff4d;
+    opacity: 1;
+}
+
+.secondSlider .carousel-control-next, .carousel-control-prev{
+     opacity: 1;
+}
+.secondSlider .carousel-indicators li{
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    color: #f9ff4d;
+    background-color: #f9ff4d;
+    margin-top: 60px;
+}
+.backColor{
+     background-color:  #f2f2f2;
+     padding: 100px 0px;   
+}
+.wBox{
+   background-color: #ffffff;
+    padding: 70px 20px;
+    height: 100%;
+     box-shadow: -17px 10px 34px -18px rgba(0,0,0,.5);
+}
+roundCirlce{
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.thumbnailImg{
+    height: 110px;
+    width: 110px;
+}
+.bio{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+}
+.bio:hover{
+    text-decoration: underline;
+    color: #000000;
+}
+.topMargin{
+  margin-top: -17px;
+    font-weight: bold;
+}
 
 
 
