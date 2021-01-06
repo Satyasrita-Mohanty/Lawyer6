@@ -152,7 +152,7 @@ nav{
     position: absolute;
     top: 60%;
     left: 50%;
-    max-width: 436px;
+    max-width: 177px;
     -webkit-box-shadow: -17px 10px 34px -18px rgba(0,0,0,.5);
     box-shadow: -17px 10px 34px -18px rgba(0,0,0,.5);
 }
@@ -235,9 +235,16 @@ nav{
     font-weight: bold;
 }
 
-.secondSlider .carousel-control-next-icon, .carousel-control-prev-icon{
+.secondSlider .carousel-control-next-icon .carousel-control-prev-icon{
     background-color: #f9ff4d;
     opacity: 1;
+}
+.secondSlider .carousel-control-prev-icon{
+    background-color: #f9ff4d;
+    opacity: 1;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: #f9ff4d;
 }
 
 .secondSlider .carousel-control-next, .carousel-control-prev{
@@ -282,6 +289,30 @@ roundCirlce{
   margin-top: -17px;
     font-weight: bold;
 }
+.styleFont{
+    font-style: italic;
+}
+.iconBox2{
+    margin-left: 0px;
+}
+.rightP{
+ padding-left: 12px;   
+}
+.consulButtonB:hover{
+  color: #000000;
+}
+.Heading1{
+   font-family: 'Roboto', sans-serif;
+   font-size: 17px;
+   font-weight: 500;
+   margin-bottom: 21px;
+   color: #000000; 
+}
+.mLeft{
+  margin-left: 10px;  
+}
+
+
 
 
 
@@ -298,7 +329,18 @@ roundCirlce{
 
 /* Extra small devices (phones, 320px and down)  start */
 @media only screen and (max-width: 320px) {
-
+  .sideImg{
+     max-width: 156px;
+   }
+    .bigHeading1{
+        font-size: 20px !important;
+    }
+    .subHeading1Grey{
+       font-size: 12px !important; 
+    }
+    .iconBox{
+        margin-left: 105px  !important;
+    }
 
 }
 
@@ -308,6 +350,21 @@ roundCirlce{
     .banner{
         height: 520px;
     }
+    .sliderbackImg{
+        max-height: 330px;
+    }
+    .mobileView{
+        margin-top: -60px;
+    }
+    .bigHeading1{
+        font-size: 25px;
+    }
+    .subHeading1Grey{
+       font-size: 14px; 
+    }
+    .serviceHeadSmall{
+      font-size: 14px;  
+    }
     
 }
 
@@ -315,7 +372,12 @@ roundCirlce{
 
 /* Medium devices (landscape tablets, 768px and up)  start*/
 @media only screen and (min-width: 768px) {
-    
+  .sideImg{
+     max-width: 380px;
+   }
+   .iconBox{
+      margin-left: 75px;
+    }
 }
     
 
@@ -326,6 +388,9 @@ roundCirlce{
     }
     .navLink{
       padding: 0px 7px;     
+    }
+    .extraM{
+        margin-bottom: 20px;
     }
 }
 
@@ -339,8 +404,21 @@ roundCirlce{
   .topPadding{
      left: 30px;
    }
-
-    
+  .sideImg{
+     max-width: 311px;
+   }
+   .sliderbackImg{
+      height: 586px;
+    }
+    .iconBox{
+      margin-left: 0px;
+    }
+    .iconBox2{
+        margin-left: 0px;
+    }
+    .rightP{
+        padding-left: 20px;
+    }
 }
 
 
@@ -350,5 +428,11 @@ roundCirlce{
 .navLink{
     padding: 0px 14px;     
   }
+.sideImg{
+     max-width: 436px;
+ }
+ .sliderbackImg{
+    height: 525px;
+ }
  
 }
