@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 ::selection {
   background:#c1928b;
     color:#fff;/* WebKit/Blink Browsers */
@@ -18,13 +18,6 @@
    background:#c1928b;
     color:#fff;/* Gecko Browsers */
 }
-.banner{
-    background-image: url(../images/banner1.jpg);
-    background-repeat: no-repeat;
-    height: 660px;
-    background-size: cover;
-}
-
 nav{
     padding: 0;
     margin: 0;
@@ -35,19 +28,48 @@ nav{
 }
 .navLink{
    font-family: 'Roboto', sans-serif;
-   color: #ffffff;
-   font-size: 15px;
+   color: #060506;
+   font-size: 14px;
    text-decoration: none;
+   text-transform: uppercase;
 }
 .navLink:hover{
    text-decoration: none; 
-   color: #f9ff4d;
+   color: #cf9455;
 }
 .active1{
-   color: #f9ff4d;  
+   color: #cf9455;  
 }
+.logo{
+     color: #cf9455 !important;
+     font-weight: bold;
+     font-family: 'Roboto', sans-serif;
+     font-size: 26px;
+     letter-spacing: 2px;
+}
+.jumbotron-header1{
+    background-color: #000000;
+}
+.logo1{
+   font-size: 12px; 
+}
+.borderRight{
+    border-right: 1px solid #cf9455;
+    padding: 0px 4px;
+}
+.navLink1{
+   color: #000000 !important;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 10px !important;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+.navLink1:hover{
+    color: #cf9455 !important; 
+}
+
 .jumbotron-footer{
-   background:#060506 !important;
+   background: #060506 !important;
 	border-radius: 0px !important;
 	background-repeat: no-repeat;
     background-size: cover;
@@ -61,7 +83,7 @@ nav{
 	text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 2px;
-	font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
  
 }
 .footer-links{
@@ -80,238 +102,169 @@ nav{
     color: #fff;
     font-size: 15px;
 }
-.logo{
-     color: #ffffff !important;
-     font-weight: bold;
-     font-family: 'Roboto', sans-serif;
-     font-size: 26px;
-     letter-spacing: 2px;
+
+ /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 580px;
+  }
+
+.carousel-indicators li{
+   width: 11px;
+   height: 11px;
+   border-radius: 50%;
 }
-.topPadding{
-    position: relative;
-    top: 90px;
+.carousel-caption{
+    left: 23%;
+    text-align: left;
+    padding-bottom:40px;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    display: none;
+}
+#demo:hover .carousel-control-next-icon{
+    display: block;
+}
+#demo:hover  .carousel-control-prev-icon{
+    display: block;
+}
+#demo1:hover .carousel-control-next-icon{
+    display: block;
+}
+#demo1:hover  .carousel-control-prev-icon{
+    display: block;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: #000000;
+}
+#demo .carousel-indicators{
+    display: none;
+}
+#demo1 .carousel-indicators{
+    display: none;
 }
 .bigHeading{
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
-    font-size: 58px;
+    font-size: 42px;
     font-weight: bold;
-    letter-spacing: 1px;
-    
-}
-.consulButton{
-    font-family: 'Roboto', sans-serif;
-    color: #000000;
-    font-size: 12px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;  
     text-transform: uppercase;
-    text-decoration: none;
-    background-color: #f9ff4d;
-    padding: 12px 19px;
-    font-weight: bold;
-    text-align: center;
-}
-.consulButton:hover{
-    border: 2px solid  #f9ff4d;
-    background-color: transparent;
-    color: #ffffff;
-    text-decoration: none;
-}
-.subHeading{
-    font-family: 'Roboto', sans-serif;
-    color: #f9ff4d;
-    font-size: 16px;
     letter-spacing: 1px;
-    text-transform: capitalize;
-    font-weight: bold;
 }
-.subHeading1{
+.smallHeading{
     font-family: 'Roboto', sans-serif;
     color: #f2f2f2;
     font-size: 17px;
     letter-spacing: 1px;
     text-transform: capitalize;
+    text-align: left;
 }
-.colorHr{
-    border-top: 3px solid #f9ff4d;
-    width: 70px;
-    margin-bottom: 12px;
-}
-.bigHeading1{
-    font-family: 'Roboto', sans-serif;
-    color:  #333333;
-    font-size: 32px;
+.appButton{
+     font-family: 'Roboto', sans-serif;
+     text-transform: capitalize;
+     color: #ffffff;
+     text-decoration: none;
+     padding: 15px;
+     border: 2px solid #ffffff;
+     margin-top: 30px;
+     border-radius: 30px;
     letter-spacing: 1px;
-    text-transform: capitalize;
 }
-.subHeading1Grey{
-    color: #a6a6a6;
-    font-size: 15px;
-}
-.sideImg{
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    max-width: 177px;
-    -webkit-box-shadow: -17px 10px 34px -18px rgba(0,0,0,.5);
-    box-shadow: -17px 10px 34px -18px rgba(0,0,0,.5);
-}
-.sideImg1{
-    position: absolute;
-    top: 60%;
-    right: 50%;
-    max-width: 436px;
-    -webkit-box-shadow: -17px 10px 34px -18px rgba(0,0,0,.5);
-    box-shadow: -17px 10px 34px -18px rgba(0,0,0,.5);
-}
-.images{
-   position: relative;
-}
-.greyBack{
-  background-color: #f2f2f2;
-  padding: 100px 0px;
-}
-.topMargin{
-  margin-top: 30px;  
-}
-.iconBox{
-    width: 85px;
-    height: 85px;
-    border-radius: 50%;
-    margin-bottom: 10px;
-    text-align: center;
-    border: 2px solid #f9ff4d;
-    margin-left: 130px;
- }
-.iconBox i{
-    font-size: 27px;
-    color: #000000;
-    position: relative;
-    top: 29px;
+.appButton:hover{
+   text-decoration: none;
+   color: #000000;
+    background-color: #cf9455;
+    border: none;
     font-weight: bold;
 }
-.serviceHeadSmall{
-    font-family: 'Roboto', sans-serif;
-    text-transform: capitalize;
-    color: #000000;
-    letter-spacing: 1px;
-    font-size: 17px;
-    text-transform: uppercase;
+.marginLeft{
+    margin-left: 30px;
 }
 .backImg{
     background-image: url(../images/banner1.jpg);
     padding: 80px 0px;
     background-size: cover;
 }
-.bigHeading2{
-    font-weight: 500;
-    font-size: 44px;
+.greyBox{
+   background-color: #f2f2f2;
+    padding: 65px 12px;
+    text-align: center;
 }
-.card{
-    background-color: none;
-    border: none;
+.greyBox:hover{
+    box-shadow: -17px 10px 34px 18px #bfbfbf;
+    background-color: #ffffff;
 }
-.circleImg{
-    height: 300px;
-    width: 100%;
-    margin-bottom: 19px;
-}
-.sliderbackImg{
-    background-image: url(../images/blog1.jpg);
-    background-repeat: no-repeat;
-    height: 525px;
-    background-size: cover;
-    box-shadow: -17px 10px 34px -18px rgba(0,0,0,.5);
-    margin-bottom: 80px;
-}
-.sliderWhiteBox{
-    background-color:  #f2f2f2;
-    padding: 60px 20px;
-    box-shadow: -17px 10px 34px -18px rgba(0,0,0,.5);
-     margin-bottom: 80px;
-}
-.iconBox1{
-    font-size: 42px;
-    font-weight: bold;
-}
-
-.secondSlider .carousel-control-next-icon .carousel-control-prev-icon{
-    background-color: #f9ff4d;
-    opacity: 1;
-}
-.secondSlider .carousel-control-prev-icon{
-    background-color: #f9ff4d;
-    opacity: 1;
-}
-.carousel-control-next-icon, .carousel-control-prev-icon{
-    background-color: #f9ff4d;
-}
-
-.secondSlider .carousel-control-next, .carousel-control-prev{
-     opacity: 1;
-}
-.secondSlider .carousel-indicators li{
-    width: 11px;
-    height: 11px;
-    border-radius: 50%;
-    color: #f9ff4d;
-    background-color: #f9ff4d;
-    margin-top: 60px;
-}
-.backColor{
-     background-color:  #f2f2f2;
-     padding: 100px 0px;   
-}
-.wBox{
-   background-color: #ffffff;
-    padding: 70px 20px;
-    height: 100%;
-     box-shadow: -17px 10px 34px -18px rgba(0,0,0,.5);
-}
-roundCirlce{
-    background-color: #f2f2f2;
-    padding: 20px;
-}
-.thumbnailImg{
-    height: 110px;
-    width: 110px;
-}
-.bio{
+.serviceHeadSmall{
     font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    text-decoration: none;
+    text-transform: capitalize;
+    color: #000000;
+    letter-spacing: 1px;
+    font-size: 23px;
+    text-transform: capitalize;
 }
-.bio:hover{
-    text-decoration: underline;
+.logoClr{
+   color: #cf9455;
+   font-family: 'Roboto', sans-serif;
+   font-size: 48px;
+}
+.smallHeadingGrey{
+  color: #999999;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+.sendButton{
+     font-family: 'Roboto', sans-serif;
+     text-transform: capitalize;
+     color: #000000;
+     text-decoration: none;
+     background-color: #cf9455;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 11px 26px;
+    font-size: 14px;
+}
+.sendButton:hover{
+   text-decoration: none;
+     background-color: transparent;
+     color: #000000;
+    border: 2px solid #cf9455;
+}
+.img1{
+   width: 100%;
+   height: 550px;
+}
+.extraPadding{
+   padding: 40px 0px; 
+}
+.bigHeading2B{
     color: #000000;
 }
-.topMargin{
-  margin-top: -17px;
-    font-weight: bold;
+.clrHead{
+    color: #cf9455;
 }
-.styleFont{
-    font-style: italic;
+.list{
+  margin: 30px 0px;  
 }
-.iconBox2{
-    margin-left: 0px;
+.listItem{
+     font-family: 'Roboto', sans-serif;
+     text-transform: capitalize;
+     color: #404040;
+     font-size: 22px;
 }
-.rightP{
- padding-left: 12px;   
+.backClr{
+   background-color:  #f2f2f2;
+   padding: 60px 0px;
 }
-.consulButtonB:hover{
-  color: #000000;
+.bigHeadingSmall{
+   font-size: 21px !important; 
 }
-.Heading1{
-   font-family: 'Roboto', sans-serif;
-   font-size: 17px;
-   font-weight: 500;
-   margin-bottom: 21px;
-   color: #000000; 
+.threeBar{
+    padding-left: 16px;
 }
-.mLeft{
-  margin-left: 10px;  
+.rightTxt{
+    text-align: end;
 }
-
 
 
 
@@ -322,117 +275,89 @@ roundCirlce{
 
 /* Extra small devices (phones, 300px and down)  start*/
 @media only screen and (max-width: 300px) {
-   
+ 
     
 }
 
 
 /* Extra small devices (phones, 320px and down)  start */
 @media only screen and (max-width: 320px) {
-  .sideImg{
-     max-width: 156px;
-   }
-    .bigHeading1{
-        font-size: 20px !important;
-    }
-    .subHeading1Grey{
-       font-size: 12px !important; 
-    }
-    .iconBox{
-        margin-left: 105px  !important;
-    }
+  
 
 }
 
 
 /* Medium devices ( 767px and down) start */
 @media only screen and (max-width: 767px){ 
-    .banner{
-        height: 520px;
+    .carousel-caption{
+        display: none;
     }
-    .sliderbackImg{
-        max-height: 330px;
+    .carousel-inner img{
+        height: auto;
     }
-    .mobileView{
-        margin-top: -60px;
-    }
-    .bigHeading1{
-        font-size: 25px;
-    }
-    .subHeading1Grey{
-       font-size: 14px; 
-    }
-    .serviceHeadSmall{
-      font-size: 14px;  
-    }
-    
 }
 
 
 
 /* Medium devices (landscape tablets, 768px and up)  start*/
 @media only screen and (min-width: 768px) {
-  .sideImg{
-     max-width: 380px;
-   }
-   .iconBox{
-      margin-left: 75px;
+  .carousel-caption{
+     bottom: 64px;
     }
+    .bigHeading{
+        font-size: 32px;
+    }
+    .smallHeading{
+       font-size: 14px;  
+    }
+    
 }
     
 
 /* Medium devices ( 768px and down) start */
 @media only screen and (max-width: 768px){ 
-    .bigHeading{
-        font-size: 30px;
-    }
     .navLink{
       padding: 0px 7px;     
-    }
-    .extraM{
-        margin-bottom: 20px;
-    }
+    } 
 }
 
 
 
 /* Large devices (laptops/desktops, 992px and up)  start*/
 @media only screen and (min-width: 992px) {
- .navLink{
+.navLink{
     padding: 0px 7px;     
   }
-  .topPadding{
-     left: 30px;
-   }
-  .sideImg{
-     max-width: 311px;
-   }
-   .sliderbackImg{
-      height: 586px;
+   .carousel-caption{
+     bottom: 45px;
     }
-    .iconBox{
-      margin-left: 0px;
+     .bigHeading{
+        font-size: 38px;
     }
-    .iconBox2{
-        margin-left: 0px;
+    .smallHeading{
+       font-size: 15px;  
     }
-    .rightP{
-        padding-left: 20px;
-    }
+    
 }
 
 
 
 /* Extra large devices (large laptops and desktops, 1200px and up)  start*/
 @media only screen and (min-width: 1200px) {
-.navLink{
-    padding: 0px 14px;     
-  }
-.sideImg{
-     max-width: 436px;
- }
- .sliderbackImg{
-    height: 525px;
- }
+  .navLink{
+     padding: 0px 14px;     
+   }
+  .carousel-caption{
+     bottom: 100px;
+    }
+    .bigHeading{
+        font-size: 44px;
+    }
+    .smallHeading{
+       font-size: 14px !important;  
+    }
  
+   
+        
 }
+
